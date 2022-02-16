@@ -22,4 +22,4 @@ class GravityCalculator {
 ```
 This code will output
 
-![Imgur](https://imgur.com/F0jb66H)
+![Imgur]()
