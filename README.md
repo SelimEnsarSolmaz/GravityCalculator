@@ -8,21 +8,18 @@ outputting the position in meters. The formula in Math notation is: x(t) = 0.5 Ã
 **Original Code**
 
 ```
-public class GravityCalculator {
-
-    public static void main(String[] args) {
-
-        System.out.println("GravityCalculator:");
-
-        double gravity = -9.81; //Gravity in m/s^2
+class GravityCalculator {
+    public static void main(String[] arguments) {
+        double gravity = -9.81; // Earth's gravity in m/s^2
         double initialVelocity = 0.0;
         double fallingTime = 10.0;
         double initialPosition = 0.0;
         double finalPosition = 0.0;
-
-        finalPosition = 0.5 * gravity + initialVelocity + initialPosition;
-
         System.out.println("The object's position after " + fallingTime + " seconds is " + finalPosition + " m.");
     }
 }
+
 ```
+This code will output
+
+![Imgur](https://imgur.com/F0jb66H)
