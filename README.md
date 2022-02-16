@@ -22,4 +22,4 @@ class GravityCalculator {
 ```
 This code will output
 
-![Imgur]()
+![Output](unedited output.PNG)
